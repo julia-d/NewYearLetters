@@ -5,4 +5,4 @@
  * @author Julia.Denisova
  *
  */
-package general;
+package utils;

@@ -1,5 +1,4 @@
 import static org.junit.Assert.*;
-import general.GeneralMethods;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -13,6 +12,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import utils.Utils;
 import centers.CenterListParser;
 
 public class TestParseCenters {
@@ -25,7 +25,7 @@ public class TestParseCenters {
 		String sourceFile = "./src/test/resources/All Buddhist centers addresses - November 2014 .csv";
 		String outputFile = "./src/test/resources/TestCentersOutput.txt";
 		pc = new CenterListParser(sourceFile, outputFile);
-		sourceLines = GeneralMethods.readSourceRemoveUnused(pc
+		sourceLines = Utils.readSource(pc
 				.getSourceFileName());
 
 	}
@@ -102,7 +102,7 @@ public class TestParseCenters {
 	@Test
 	public void testOutputManually() {
 		String output = pc.produceOutput(map);
-		GeneralMethods.writeToFile(output, pc.getOutputFileName());
+		Utils.writeToFile(output, pc.getOutputFileName());
 	}
 
 }

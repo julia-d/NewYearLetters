@@ -2,14 +2,13 @@ import static org.junit.Assert.*;
 
 import java.util.List;
 
-import general.GeneralMethods;
-
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import utils.Utils;
 import addresses.AddressParser;
 
 public class TestParseAddress {
@@ -35,7 +34,7 @@ public class TestParseAddress {
 
 	@Before
 	public void setUp() throws Exception {
-		sourceLines = GeneralMethods.readSourceRemoveUnused(pa
+		sourceLines = Utils.readSource(pa
 				.getSourceFileName());
 		addresses = pa.extractAddressDetails(sourceLines);
 
@@ -89,7 +88,7 @@ public class TestParseAddress {
 	@Test
 	public void testOutputManually() {
 		String output = pa.produceOutput(addresses);
-		GeneralMethods.writeToFile(output, pa.getOutputFileName());
+		Utils.writeToFile(output, pa.getOutputFileName());
 	}
 
 }

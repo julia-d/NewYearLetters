@@ -1,10 +1,10 @@
 package addresses;
 
-import general.FileProducer;
-import general.GeneralMethods;
-
 import java.util.LinkedList;
 import java.util.List;
+
+import utils.FileProducer;
+import utils.Utils;
 
 public class AddressParser {
 	private String sourceFileName;
@@ -12,11 +12,11 @@ public class AddressParser {
 
 	public static void main(String[] args) {
 		AddressParser pa = new AddressParser();
-		List<String> lines = GeneralMethods.readSourceRemoveUnused(pa
+		List<String> lines = Utils.readSource(pa
 				.getSourceFileName());
 		List<String[]> addressDetails = pa.extractAddressDetails(lines);
 		String ouput = pa.produceOutput(addressDetails);
-		GeneralMethods.writeToFile(ouput, pa.getOutputFileName());
+		Utils.writeToFile(ouput, pa.getOutputFileName());
 	}
 
 	public String getSourceFileName() {
@@ -61,38 +61,38 @@ public class AddressParser {
 		String[] address = new String[5];
 
 		// country
-		String country = GeneralMethods.makeAddressItem(allLine, index);
+		String country = Utils.makeAddressItem(allLine, index);
 		index += country.length() + 1;
 
 		// country index - unused
-		String countryIndex = GeneralMethods.makeAddressItem(allLine, index);
+		String countryIndex = Utils.makeAddressItem(allLine, index);
 		index += countryIndex.length() + 1;
 
 		// region - unused
-		String region = GeneralMethods.makeAddressItem(allLine, index);
+		String region = Utils.makeAddressItem(allLine, index);
 		index += region.length() + 1;
 
 		// city
-		String city = GeneralMethods.makeAddressItem(allLine, index);
+		String city = Utils.makeAddressItem(allLine, index);
 		index += city.length() + 1;
 
 		// host
-		String host = GeneralMethods.makeAddressItem(allLine, index);
+		String host = Utils.makeAddressItem(allLine, index);
 		index += host.length() + 1;
 		if (host.isEmpty()) {
 			host = "DIAMOND WAY BUDDHIST CENTER";
 		}
 
 		// street
-		String street = GeneralMethods.makeAddressItem(allLine, index);
+		String street = Utils.makeAddressItem(allLine, index);
 		index += street.length() + 1;
 
 		// zip
-		String zip = GeneralMethods.makeAddressItem(allLine, index);
+		String zip = Utils.makeAddressItem(allLine, index);
 		index += zip.length() + 1;
 
 		// city location
-		String location = GeneralMethods.makeAddressItem(allLine, index);
+		String location = Utils.makeAddressItem(allLine, index);
 
 		// group the address
 		address[0] = host;

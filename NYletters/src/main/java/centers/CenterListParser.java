@@ -1,8 +1,5 @@
 package centers;
 
-import general.FileProducer;
-import general.GeneralMethods;
-
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -10,19 +7,22 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
+import utils.FileProducer;
+import utils.Utils;
+
 public class CenterListParser {
 	private String sourceFileName;
 	private String outputFileName;
 
 	public static void main(String[] args) {
 		CenterListParser pc = new CenterListParser();
-		List<String> lines = GeneralMethods.readSourceRemoveUnused(pc
+		List<String> lines = Utils.readSource(pc
 				.getSourceFileName());
 		List<String[]> countryAndCenter = pc.defineCountryAndCenter(lines);
 		TreeMap<String, List<String>> map = pc
 				.mapCentersToCountries(countryAndCenter);
 		String output = pc.produceOutput(map);
-		GeneralMethods.writeToFile(output, pc.getOutputFileName());
+		Utils.writeToFile(output, pc.getOutputFileName());
 	}
 
 	public String getSourceFileName() {
@@ -49,10 +49,10 @@ public class CenterListParser {
 	}
 
 	// 3) Define country and city in the received strings
-	public List<String[]> defineCountryAndCenter(List<String> list) {
+	public List<String[]> defineCountryAndCenter(List<String> inputList) {
 		System.out.println("Defining countries and centers from the list of input lines.");
 		List<String[]> resultList = new LinkedList<String[]>();
-		for (String line : list) {
+		for (String line : inputList) {
 			char[] allLine = line.toCharArray();
 			resultList.add(this.countryAndCenter(allLine));
 		}
@@ -62,17 +62,17 @@ public class CenterListParser {
 	public String[] countryAndCenter(char[] allLine) {
 		String[] countryAndCenter = new String[2];
 		int index = 0;
-		countryAndCenter[0] = GeneralMethods.makeAddressItem(allLine, index);
+		countryAndCenter[0] = Utils.makeAddressItem(allLine, index);
 		index += countryAndCenter[0].length() + 1;
 
 		// country index - unused
-		String countryIndex = GeneralMethods.makeAddressItem(allLine, index);
+		String countryIndex = Utils.makeAddressItem(allLine, index);
 		index += countryIndex.length() + 1;
 		// region - unused
-		String region = GeneralMethods.makeAddressItem(allLine, index);
+		String region = Utils.makeAddressItem(allLine, index);
 		index += region.length() + 1;
 
-		countryAndCenter[1] = GeneralMethods.makeAddressItem(allLine, index);
+		countryAndCenter[1] = Utils.makeAddressItem(allLine, index);
 		return countryAndCenter;
 
 	}
@@ -80,15 +80,15 @@ public class CenterListParser {
 	// 4) Map 1 country - many centers
 
 	public TreeMap<String, List<String>> mapCentersToCountries(
-			List<String[]> list) {
+			List<String[]> countryAndCenter) {
 		System.out.println("Mapping centers to countries.");
 		TreeMap<String, List<String>> resultMap = new TreeMap<String, List<String>>();
 		Set<String> keys = new HashSet<String>();
-		for (String[] countryCenter : list) {
+		for (String[] countryCenter : countryAndCenter) {
 			keys.add(countryCenter[0]);
 			// resultMap.put(countryCenter[0], new LinkedList<String>());
 		}
-		for (String[] countryCenter : list) {
+		for (String[] countryCenter : countryAndCenter) {
 			if (resultMap.containsKey(countryCenter[0])) {
 				resultMap.get(countryCenter[0]).add(countryCenter[1]);
 			} else {

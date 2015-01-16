@@ -1,4 +1,4 @@
-package general;
+package utils;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
-public class GeneralMethods {
+public class Utils {
 
 	public static String removeExtra(String line, String pattern1,
 			String pattern2, String pattern3) {
@@ -20,35 +20,40 @@ public class GeneralMethods {
 		return temp;
 
 	}
-	
-	public static List<String> readSourceRemoveUnused(String sourceFileName) {
-		System.out.println("Reading " + sourceFileName + ". Removing unused parts.");
+
+	public static List<String> readSource(String sourceFileName) {
+		System.out.println("Reading " + sourceFileName
+				+ ". Removing unused parts.");
 		List<String> resultList = new LinkedList<String>();
 		String patternRemove1 = "CENTERS;\\d+\\;";
 		String patternRemove2 = "\\+\\d+(.*)";
 		String patternRemove3 = ";\\w+(@(.*))";
 		BufferedReader br = null;
+		
 		try {
 			br = new BufferedReader(new FileReader(sourceFileName));
 		} catch (FileNotFoundException e) {
 			throw new RuntimeException("Can't find " + sourceFileName, e);
 		}
 		String line = "";
+		
 		try {
-		while((line = br.readLine()) != null) {
-			resultList.add(GeneralMethods.removeExtra(line, patternRemove1, patternRemove2, patternRemove3));
-		}
-		} catch(IOException e) {
-			GeneralMethods.closeQuietly(br);
+			while ((line = br.readLine()) != null) {
+				resultList.add(Utils.removeExtra(line, patternRemove1,
+						patternRemove2, patternRemove3));
+			}
+		} catch (IOException e) {
+			Utils.closeQuietly(br);
 			throw new RuntimeException("Can't read " + sourceFileName, e);
 		}
-		
-		GeneralMethods.closeQuietly(br);
+
+		Utils.closeQuietly(br);
 		return resultList;
 	}
-	
+
 	public static void writeToFile(String resultString, String outputFileName) {
-		System.out.println("Writing the output String to the output file - " + outputFileName);
+		System.out.println("Writing the output String to the output file - "
+				+ outputFileName);
 		BufferedWriter bw = null;
 		try {
 			bw = new BufferedWriter(new FileWriter(outputFileName));
@@ -60,13 +65,13 @@ public class GeneralMethods {
 		try {
 			bw.write(resultString);
 		} catch (IOException e) {
-			GeneralMethods.flushAndCloseQuietly(bw);
+			Utils.flushAndCloseQuietly(bw);
 			throw new RuntimeException("Can't write output file", e);
 		}
-		GeneralMethods.flushAndCloseQuietly(bw);
-		
+		Utils.flushAndCloseQuietly(bw);
+
 	}
-	
+
 	public static void flushAndCloseQuietly(BufferedWriter bw) {
 		try {
 			bw.flush();
@@ -79,14 +84,15 @@ public class GeneralMethods {
 			// do nothing
 		}
 	}
+
 	public static void closeQuietly(BufferedReader br) {
 		try {
 			br.close();
-		} catch(IOException e) {
+		} catch (IOException e) {
 			// do nothing;
 		}
 	}
-	
+
 	public static String makeAddressItem(char[] arr, int index) {
 		String addressItem = "";
 		while ((index < arr.length) && (arr[index] != ';')) {

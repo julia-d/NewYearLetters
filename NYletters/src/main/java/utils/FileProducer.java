@@ -1,4 +1,4 @@
-package general;
+package utils;
 
 import java.io.File;
 
@@ -18,8 +18,7 @@ public class FileProducer {
 		File file = new File(sourcePath);
 		String[] files = file.list();
 		for (String fileName : files) {
-			if ("All Buddhist centers addresses - November 2014 .csv"
-					.equals(fileName)) {
+			if (fileName.matches(".*.csv")) {
 				if (sourceFileName == null) {
 					sourceFileName = sourcePath + fileName;
 				} else if (sourceFileName.equals(fileName)) {

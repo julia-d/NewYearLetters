@@ -1,0 +1,124 @@
+
+Nysa
+Kazakhstan
+Almaty
+Portugal
+Figueira - Budens,Lisboa
+Iceland
+Merhavia,Reykjavik
+Greece
+Athens,Karma Berchen Ling,Thessaloniki
+Austria
+Bludenz,Bregenz,Dornbirn,Graz,Innsbruck,Judenburg,Linz,Mautern,Murau,Salzburg,Steyr,Villach,Wien
+Latvia
+Daugavpils,Riga
+South Korea
+Seoul
+Slovak Republic
+Banska Bystrica,Bratislava,Hlohovec,Kosice,Mangutovo,Nitra,Pezinok,Piestany,Presov,Stara Tura,Trencin,Trnava
+El Salvador
+San Salvador,San Salvador Monaco
+Brazil
+Botucatu,Porto Alegre
+Guatemala
+Coban,Guatemala City,La Antigua Guatemala,USAC Guatemala City
+Slovenia
+Maribor
+Chile
+Santiago,Valparaíso
+Nepal
+Kathmandu
+Colombia
+Bogota,Bogota Casa,Bucaramanga,Cali,Medellin
+Argentina
+Buenos Aires
+Hungary
+Becske,Bicske,Budapest,Bugac,Debrecen,Eger,Gyongyos,Gyor,Kaposvar,Kecskemet,Miskolc,Nyiregyhaza,Paks,Pecs,Szeged,Szekesfehervar,Szekszard,Szolnok,Tatabanya,Veszprem,Zalaegerszeg
+Japan
+Tokyo
+Ukraine
+Chernihiv,Dnepropetrovsk,Donetsk,Kharkov,Kiev,Lugansk,Lviv,Melitopol,Minkovka,Mukachevo,Odessa,Poltava,Sevastopol,Stakhanov,Uzhgorod,Zaporozhye,Znamin
+Belarus
+Gomel,Minsk
+New Zealand
+Auckland,Christchurch,Golden Bay,Wellington
+Canada
+Calgary,Edmonton,Montreal,Red Deer,Toronto,Vancouver
+Belgium
+Brussels,Gent
+Finland
+Helsinki,Hyvinkaa,Lahti,Pori,Tampere,Turku
+Italy
+Bari,Bergamo,Bologna,Brescia,Crema,Fabriano,Firenze,Gallarate,Mantova,Milano,Orvieto,Palo del Colle,Perugia,Pisa,Roma,Torretta,Udine
+South Africa
+Cape Town,Johannesburg
+Macedonia
+Skopje
+Georgia
+Tiflis
+Peru
+Arequipa,Iquitos,Lima,Piura
+Germany
+Aachen,Altmuehle,Aschaffenburg,Auenbuettel,Augsburg,Bad Hersfeld,Bad Segeberg,Bad Sobernheim,Bad Toelz,Bad Woerishofen,Baden-Baden,Bayerwald,Berlin,Berlin Mitte,Bielefeld,Bochum,Bonn,Braunschweig,Bremen,Bruehl,Bruehl-Mitte,Buxtehude,Cham,Chemnitz,Chiemsee,Cologne,Dachau,Darmstadt,Detmold,Dillingen,Donnersberg,Dortmund,Dresden,Duisburg,Dusseldorf,Eckernfoerde,Elmshorn,Erlangen,Eschwege,Essen,Flaeming,Flensburg,Frankfurt,Freiburg,Fuessen,Garmisch-Partenkirchen,Gelsenkirchen,Gera,Giessen,Goettingen,Görlitz,Greifswald,Grossholz,Hagen,Hamburg,Hamburg-Bergedorf,Hamburg-Klein Borstel,Hameln,Hannover,Heide,Heidelberg,Heilbronn,Heiligenhaus,Hildesheim,Hohwacht,Husum,Ingolstadt,Iserlohn,Itzehoe,Jena,Kaiserslautern,Karlsruhe,Kassel,Kaufbeuren,Kempten,Kiel,Kierspe,Kirchheim/Teck,Koblenz,Konstanz,Kossin,Krefeld,Krefeld Stadtwald,Laboe,Landau,Landshut,Leipzig-Süd,Limburg,Lossburg,Luebeck,Luedenscheid,Lueneburg,Mainz,Mannheim,Meppen,Muenster,Munich,Munich-SouthEast,Murnau,Neumuenster,Neustadt,Nordfriesland,Nuernberg,Oberberg,Oldenburg,Osnabrueck,Overath,Passau,Pforzheim,Potsdam,Ravensburg,Regensburg,Rendsburg,Reutlingen,Rhodt,Rosenheim,Rostock,Saarbruecken,Schwäbisch Hall,Schwaebische Alb,Schwarzenberg,Schweinfurt,Siegburg,Singen,Soest,Stade,Straubing,Stuttgart,Sylt,Thurnau,Trier,Tuebingen,Uelzen,Ulm / Neu-Ulm,Unna,Villingen-Schwenningen,Visbek,Waldshut,Weilburg,Weilheim,Wiesbaden,Witten,Wolfsburg,Worms,Wuerzburg,Wuppertal,Zgorzelec
+Kyrgyz Republic (Kyrgyzstan)
+Bishkek
+Hong Kong
+Hong Kong
+United States of America
+Albany,Albuquerque,Austin,Boston,Chicago,Cincinatti,Clear Lake,Columbus,Dallas,Denver,Harrisonburg,Heartland Retreat Center,Hollister,Houston,Houston Downtown,La Crosse,Las Vegas,Los Angeles,Madison,Maui,Miami,Miami Morningside,Milwaukee,Minneapolis,Nevada City,New York,Northeast Retreat Center,Oneonta,Portland,San Antonio,San Diego,San Francisco,Santa Fe,Seattle,Washington,DC,Western Retreat Center,Yorkville
+Costa Rica
+San Jose Costa Rica
+Malta
+Malta
+Russia
+Abakan,Achinsk,Angarsk,Arkhangelsk,Arkhara,Askat,Astrakhan,Barnaul,Belogorsk,Berdsk,Blagoveshchensk,Chelyabinsk,Cherepovets,Chita,Dzerzhinsk,Ekaterinburg,Elista,Irkutsk,Izhevsk,Kaliningrad,Kazan,Kemerovo,Khabarovsk,Kirov,Kirovsk,Kiselyovsk,Komsomolsk-na-Amure,Krasnodar,Krasnoyarsk,Kursk,Lipetsk,Magadan,Magnitogorsk,Morki,Moscow,Nakhodka,Nevinnomyssk,Nizhny Novgorod,Novosibirsk,Omsk,Orel,Perm,Pyatigorsk,Rechitsa,Rostov-on-Don,Sakhalin,Samara,Saratov,Severodvinsk,Smolensk,Sochi,St. Petersburg,Stavropol,Togliatti,Tomsk,Tula,Tyumen,Ulan Ude,Ulyanovsk,Vladimir,Vladivostok,Volgograd,Voronezh,Yoshkar-Ola,Zelenodolsk,Zheleznogorsk
+Netherlands
+Amsterdam,Arnhem,Enschede,Friesland,Groningen,Nijmegen,Rhenen,Rotterdam,The Hague,Utrecht
+Sweden
+Gothenburg,Malmoe,Oerebro,Stockholm
+Vietnam
+Saigon
+Ireland
+Dublin,Killarney,Sligo
+Poland
+Bartolty,Belchatov,Bialystok,Bielsko-Biala,Bydgoszcz,Bytom,Czestochowa,Elblag,Gdansk,Gliwice,Glogow,Gorzow Wielkopolski,Kalisz,Katowice,Kedzierzyn Kozle,Kielce,Kolo,Konin,Koszalin,Krakow,Kuchary,Lodz,Lubaczow,Luban,Lublin,Malbork,Nagodzice,Nowy Sacz,Olsztyn,Opole,Otwock,Pila,Plock,Poznan,Prudnik,Raciborz,Radom,Ropki,Rybnik,Rzeszow,Slupsk,Sosnowiec,Srebrne Jezioro,Stalowa Wola (Nisko),Suwalki,Swidnica,Swinoujscie,Szczecin,Tarnow,Tarnowskie Gory,Torun,Tychy,Warszawa,Warszawa - Wesola,Wroclaw,Zagorzany,Zakopane,Zamosc,Zielona Gora
+Bulgaria
+Gabrovo,Kovachevica,Plana,Plovdiv,Samokov,Sofia,Varna,Vinitsa
+France
+Grenoble,Paris
+Lithuania
+Kaunas,Klaipeda,Siauliai,Stupkalnis,Vilnius
+Serbia
+Beograd
+ Europe Center
+Europe Center
+Romania
+Bucharest,Cluj-Napoca,Marghita,Oradea,Oradea Retreat,Satu Mare,Targu Secuiesc,Timisoara,Zagon
+Uruguay
+Karma Dechen Ling,Montevideo
+United Kingdom
+Bath,Brighton,Cambridge (UK),Edinburgh,Exeter,Glasgow,Liverpool,London,Manchester,Newcastle,Oxford,Potters Bar,Reading,Rochester,Sheffield,St. Albans
+Switzerland
+Aarau,Amden,Basel,Bern,Biel,Geneva,Locarno,Luzern,St. Gallen,Zuerich
+Spain
+A Coruna,Bailen,Barcelona,Benalmadena,Bilboa,Cartagena,Emporda,Fuengirola,Granada,Karma Guen,Madrid,Malaga,Marbella,Palma de Mallorca,Roses,Sevilla,Vigo
+Moldavia (Moldova)
+Chisinau
+Cuba
+Habana
+Venezuela
+Caracas,Isla de Margarita,Maracay,Puerto Ordaz,Valencia
+Czech Republic
+Bechyne,Benesov,Blatna,Brandys nad Labem,Brno,Ceske Budejovice,Ceske Budejovice / Vyhlidky,Cesky Tesin,Chomutov,Decin,Dvur Kralove nad Labem,Frydek Mistek,Havirov,Hradec Kralove,Hranice na Morave,Jihlava,Jilemnice,Jindrichuv Hradec,Karlovy Vary,Karvina,Kladno,Klatovy,Kolin,Kralupy nad Vltavou,Kraslice,Kromeriz,Liberec,Nymburk,Olomouc,Opava,Ostrava,Pardubice,Pisek,Plzen,Prachatice,Praha (Prague),Prerov,Pribram,Prostejov,Raknovik,Roznov pod Radhostem,Rymarov,Semily,Sumperk,Tabor,Tenovice,Teplice,Trojak,Trutnov,Turnov,Tyn nad Vltavou,Uherske Hradiste,Usti nad Labem,Velke Karlovice,Vsetin,Vyskov,Zdar nad Sazavou,Zlin,Znojmo
+Norway
+Bergen,Heggedal,Oslo,Stavanger,Trondheim
+Denmark
+Aalborg,Aarhus,Copenhagen,Esbjerg,Holbaek,Odense,Rodby (Lolland),Silkeborg,Taulov
+Mexico
+Cancun,Metepec,Mexico City Casa Tibet,Mexico City Condesa,Mexico City South,Monterrey,Oaxaca,Playa del Carmen,Xochimilco
+Israel
+Beer Sheva,Eilat,Haifa,Jerusalem,Tel Aviv
+Australia
+Blue Mountains,Brisbane,Cairns,Canberra,Gold Coast,Melbourne Albert Park,Melbourne East,Naracoorte,Northern Beaches,Northern Rivers,Perth,Sunshine Coast,Sydney
+Estonia
+Madrid-Salamanca,Narva,Tallinn
